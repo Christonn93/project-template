@@ -1,0 +1,22 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "description": "A simple template reposetory for feautere projects",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christonn93/project-template.git"
+  },
+  "keywords": [
+    "Project-template"
+  ],
+  "author": "Christopher Tønnesland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Christonn93/project-template/issues"
+  },
+  "homepage": "https://github.com/Christonn93/project-template#readme"
+}
