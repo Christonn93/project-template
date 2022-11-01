@@ -2,31 +2,39 @@
 
 A template for an easy start on new projects.
 
-## Installing style frameworks
+## Installing dependencies
 
-### Bootstrap
+### Style frameworks
+
+#### Bootstrap
 
 ```
 npm i bootstrap
 ```
 
-### SCSS
+#### SCSS
 
 ```
 npm i scss
 ```
 
-### SASS
+#### SASS
 
 ```
 npm i sass
 ```
 
-## Installing dev environment dependencies
+### Dev environment dependencies
 
 Here are all the dependencies you should install for each project to create a good working environment for your project.
 
-### es-lint
+### jsDocs
+
+```
+npm i jsdoc
+```
+
+#### es-lint
 
 Installing:
 
@@ -40,13 +48,13 @@ Setting up:
 npx eslint --init
 ```
 
-### Prettier
+#### Prettier
 
 ```
 npm install --save-dev prettier
 ```
 
-### Creating pre-commit hooks
+#### Creating pre-commit hooks
 
 ```
 npx mrm@2 lint-staged
@@ -69,7 +77,7 @@ Configure package.json with this after running the command over
 }
 ```
 
-### Jest
+#### Jest
 
 ```
 npm i -D jest@29.2.0
@@ -93,7 +101,7 @@ Setting up babel to work with Jest
 npm -D install @babel/core@7.19.3 @babel/preset-env@7.19.4
 ```
 
-### Cypress for end-to-end testing
+#### Cypress for end-to-end testing
 
 ```
 npm install cypress --save-dev
