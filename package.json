@@ -27,5 +27,21 @@
   "bugs": {
     "url": "https://github.com/Christonn93/project-template/issues"
   },
-  "homepage": "https://github.com/Christonn93/project-template#readme"
+  "homepage": "https://github.com/Christonn93/project-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "cypress": "^10.11.0",
+    "eslint": "^8.26.0",
+    "husky": "^8.0.1",
+    "jest": "^29.2.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
+  }
 }
