@@ -2,7 +2,27 @@
 
 A template for an easy start on new projects.
 
-## Installing dependencies
+## Installing style frameworks
+
+### Bootstrap
+
+```
+npm i bootstrap
+```
+
+### SCSS
+
+```
+npm i scss
+```
+
+### SASS
+
+```
+npm i sass
+```
+
+## Installing dev environment dependencies
 
 Here are all the dependencies you should install for each project to create a good working environment for your project.
 
