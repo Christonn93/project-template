@@ -28,7 +28,7 @@ npm i sass
 
 Here are all the dependencies you should install for each project to create a good working environment for your project.
 
-### jsDocs
+#### jsDocs
 
 ```
 npm i jsdoc
